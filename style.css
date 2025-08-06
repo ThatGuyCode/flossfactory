@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 40px 0;
+    background: linear-gradient(to bottom right, #ffccf9, #ffe0f0);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #ff69b4;
+    text-align: center;
+    overflow-y: auto;
+}
+
+
+.container {
+    background-color: #fff0f5;
+    border: 5px dashed #ffb6c1;
+    border-radius: 30px;
+    padding: 50px;
+    box-shadow: 0 0 20px pink;
+    max-width: 700px;
+    margin: auto;
+}
+
+
+h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    color: #ff1493;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #ff69b4;
+}
+
+p, li {
+    font-size: 1.6em;
+    color: #d63384;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.candy-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 18px 36px;
+    background: linear-gradient(135deg, #ff9ee9, #ffc2f9);
+    color: white;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 8px 15px rgba(255, 105, 180, 0.4);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.candy-button:hover {
+    transform: scale(1.08);
+    background: linear-gradient(135deg, #ffaaf0, #ffd1fa);
+    box-shadow: 0 10px 20px rgba(255, 105, 180, 0.6);
+}
+
+.coming-soon {
+    padding: 30px;
+    background-color: #fff0f5;
+}
+
+.coming-soon h2 {
+    font-size: 2.5em;
+    color: #ff69b4;
+    margin-bottom: 10px;
+}
+
+.coming-soon p {
+    font-size: 1.4em;
+    color: #d63384;
+}
+
+.main-image {
+    width: 250px;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(255, 182, 193, 0.5);
+    margin-bottom: 20px;
+}
+
+.social {
+    margin-top: 30px;
+    font-size: 1.8em;  /* or try 2em for even bigger */
+}
